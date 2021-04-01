@@ -30,7 +30,7 @@ nav{
     border: 2px solid red;
     background-color: grey;
 }
-@media(min-width:1201px){
+@media(min-width:992px){
     .col-1{
         margin-left: 25px;
     }
@@ -44,7 +44,7 @@ nav{
             width: 30%;
         }
 }
-@media(min-width:900px) and (max-width:1200px){
+@media(min-width:786px) and (max-width:991px){
     .col-1{
         margin-right: 25px;
         margin-left: 22px    ;
@@ -60,12 +60,12 @@ nav{
         
     }
 
-    @media(max-width:899px){
+    @media(max-width:785px){
         .col-1, 
         .col-2, 
         .col-3 {
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 20px ;
            
         }
 }
